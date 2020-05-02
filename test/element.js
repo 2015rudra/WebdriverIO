@@ -3,6 +3,7 @@ describe("Interaction with WebdriverIO", function(){
     it("Enter value in field" , function()
     {
         browser.url('/')
+        browser.maximizeWindow();
         const search = $('#twotabsearchtextbox');
         search.setValue('Apple Mac Book');
 
@@ -13,6 +14,7 @@ describe("Interaction with WebdriverIO", function(){
     it("Get text values" , function()
     {
         browser.url('/')
+        browser.maximizeWindow();
         browser.pause(5000);
 
         const label = $('//span[@class="a-size-base a-color-base"]');
@@ -25,7 +27,7 @@ describe("Interaction with WebdriverIO", function(){
     it("Click on search" , function()
     {
         browser.url('/')
-        
+        browser.maximizeWindow();
         const search = $('#twotabsearchtextbox');
         
         search.setValue('Apple Mac Book');
@@ -37,7 +39,5 @@ describe("Interaction with WebdriverIO", function(){
         browser.pause(5000);
 
     })
-
-
 
 });

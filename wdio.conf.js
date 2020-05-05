@@ -47,7 +47,6 @@ exports.config = {
     //
     capabilities: [{
     
-        
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
@@ -58,7 +57,6 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-        
     }],
     //
     // ===================
@@ -91,7 +89,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://www.amazon.com/',
+    baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -107,7 +105,6 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    //services: ['chromedriver','selenium-standalone'],
     services: ['chromedriver'],
     
     // Framework you want to run your specs with.
@@ -136,8 +133,6 @@ exports.config = {
         ui: 'bdd',
         timeout: 60000
     },
-
-    
     //
     // =====
     // Hooks
@@ -197,23 +192,8 @@ exports.config = {
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-     beforeTest: function () 
-     {
-
-        const chai = require('chai')
-        const chaiWebdriver = require('chai-webdriverio').default
-        chai.use(chaiWebdriver(browser))
-
-
-        global.assert = chai.assert
-        global.should = chai.should
-        global.expect = chai.expect
-
-
-
-
-
-     },
+    // beforeTest: function (test, context) {
+    // },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)

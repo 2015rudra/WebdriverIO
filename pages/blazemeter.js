@@ -30,6 +30,24 @@ class Blazemeter
                 console.log(usecases.getText());
             });
         }
+
+
+        specifiChileElement(index)
+        {
+            return this.parent.$(`li:nth-child(${index})`);
+        }
+
+        getSpecificChildElement(index)
+        {
+            console.log(this.specifiChileElement(index).getText());
+        }
+
+        /* get ApplicationLogo()
+        {
+           const elem = $("//div[@class='logo-img']");
+        let isDisplayed = elem.isDisplayed();
+        console.log(isDisplayed); 
+        } */
 }
 
 

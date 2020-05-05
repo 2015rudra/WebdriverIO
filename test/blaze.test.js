@@ -7,8 +7,11 @@ describe("Element of Blazemeter", function(){
     {
         browser.url('https://www.blazemeter.com/');
         browser.maximizeWindow();
-        blaze.litext;
-        blaze.usecasestext;
+        //blaze.litext;
+        //blaze.usecasestext;
+       console.log(blaze.specifiChileElement(3).getText());
+       blaze.getSpecificChildElement(4);
+      //blaze.ApplicationLogo;
     })
 
 });

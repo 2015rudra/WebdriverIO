@@ -1,0 +1,58 @@
+{
+  "uid" : "2035173446558974",
+  "name" : "should save a screenshot of the browser view",
+  "fullName" : "Element of Blazemeter.should save a screenshot of the browser view",
+  "historyId" : "35aaeb6ca0a9ce9415accdbe46bfde33",
+  "time" : {
+    "start" : 1588918449978,
+    "stop" : 1588918450286,
+    "duration" : 308
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "testClass",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view"
+  }, {
+    "name" : "package",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2035173446558974.json",
+  "parameterValues" : [ "chrome" ]
+}

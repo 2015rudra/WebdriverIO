@@ -1,0 +1,58 @@
+{
+  "uid" : "a5604f7b37fe66eb",
+  "name" : "Header is enabled",
+  "fullName" : "Element of Blazemeter.Header is enabled",
+  "historyId" : "b78d1923409e4880636f95625f4efd91",
+  "time" : {
+    "start" : 1588918449357,
+    "stop" : 1588918449747,
+    "duration" : 390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "testClass",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "testMethod",
+    "value" : "Header is enabled"
+  }, {
+    "name" : "package",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5604f7b37fe66eb.json",
+  "parameterValues" : [ "chrome" ]
+}

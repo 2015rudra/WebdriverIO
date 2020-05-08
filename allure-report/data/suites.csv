@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri May 08 11:44:09 IST 2020","Fri May 08 11:44:10 IST 2020","308","","Element of Blazemeter","","Element of Blazemeter","should save a screenshot of the browser view","should save a screenshot of the browser view",""
+"passed","Fri May 08 11:44:09 IST 2020","Fri May 08 11:44:09 IST 2020","182","","Element of Blazemeter","","Element of Blazemeter","Header is displayed","Header is displayed",""
+"passed","Fri May 08 11:44:09 IST 2020","Fri May 08 11:44:09 IST 2020","390","","Element of Blazemeter","","Element of Blazemeter","Header is enabled","Header is enabled",""
+"passed","Fri May 08 11:44:01 IST 2020","Fri May 08 11:44:09 IST 2020","7872","","Element of Blazemeter","","Element of Blazemeter","get all links text","get all links text",""
+"passed","Fri May 08 11:44:09 IST 2020","Fri May 08 11:44:09 IST 2020","230","","Element of Blazemeter","","Element of Blazemeter","Header is displayed in view port","Header is displayed in view port",""

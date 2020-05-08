@@ -1,0 +1,58 @@
+{
+  "uid" : "b9ef9d62a6954d59",
+  "name" : "Header is displayed in view port",
+  "fullName" : "Element of Blazemeter.Header is displayed in view port",
+  "historyId" : "df19210fa9e29ff69d37ba7160242275",
+  "time" : {
+    "start" : 1588918449747,
+    "stop" : 1588918449977,
+    "duration" : 230
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "testClass",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "testMethod",
+    "value" : "Header is displayed in view port"
+  }, {
+    "name" : "package",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9ef9d62a6954d59.json",
+  "parameterValues" : [ "chrome" ]
+}

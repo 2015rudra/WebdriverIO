@@ -1,0 +1,51 @@
+[ {
+  "uid" : "2035173446558974",
+  "name" : "should save a screenshot of the browser view",
+  "time" : {
+    "start" : 1588918449978,
+    "stop" : 1588918450286,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9ef9d62a6954d59",
+  "name" : "Header is displayed in view port",
+  "time" : {
+    "start" : 1588918449747,
+    "stop" : 1588918449977,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c306795510cf11a",
+  "name" : "get all links text",
+  "time" : {
+    "start" : 1588918441303,
+    "stop" : 1588918449175,
+    "duration" : 7872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eef0ae37236278a3",
+  "name" : "Header is displayed",
+  "time" : {
+    "start" : 1588918449175,
+    "stop" : 1588918449357,
+    "duration" : 182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5604f7b37fe66eb",
+  "name" : "Header is enabled",
+  "time" : {
+    "start" : 1588918449357,
+    "stop" : 1588918449747,
+    "duration" : 390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

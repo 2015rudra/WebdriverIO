@@ -48,6 +48,11 @@ class Blazemeter
         let isDisplayed = elem.isDisplayed();
         console.log(isDisplayed); 
         } */
+
+        get Header()
+        {
+            return $("//h2[@class='home_title']");
+        }
 }
 
 

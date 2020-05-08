@@ -1,0 +1,58 @@
+{
+  "uid" : "7c306795510cf11a",
+  "name" : "get all links text",
+  "fullName" : "Element of Blazemeter.get all links text",
+  "historyId" : "3640c5c4f210c9a5eb4bf9520e03c2c3",
+  "time" : {
+    "start" : 1588918441303,
+    "stop" : 1588918449175,
+    "duration" : 7872
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "testClass",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "testMethod",
+    "value" : "get all links text"
+  }, {
+    "name" : "package",
+    "value" : "Element of Blazemeter"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c306795510cf11a.json",
+  "parameterValues" : [ "chrome" ]
+}

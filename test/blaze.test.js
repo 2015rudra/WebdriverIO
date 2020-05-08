@@ -14,6 +14,39 @@ describe("Element of Blazemeter", function(){
       //blaze.ApplicationLogo;
     })
 
+
+    it("Header is displayed", function()
+    {
+        browser.url('https://www.blazemeter.com/');
+        browser.maximizeWindow();
+        console.log(blaze.Header.isDisplayed());
+
+
+    })
+
+    it("Header is enabled", function()
+    {
+        browser.url('https://www.blazemeter.com/');
+        browser.maximizeWindow();
+        console.log(blaze.Header.isEnabled());
+
+
+    })
+
+    it("Header is displayed in view port", function()
+    {
+        browser.url('https://www.blazemeter.com/');
+        browser.maximizeWindow();
+        console.log(blaze.Header.isDisplayedInViewport());
+
+
+    })
+
+    it('should save a screenshot of the browser view', function () {
+        const elem = $("//h2[@class='home_title']");
+        elem.saveScreenshot('./Screenshots/first.png');
+    });
+
 });
 
 

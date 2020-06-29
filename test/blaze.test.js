@@ -6,7 +6,7 @@ describe("Element of Blazemeter", function(){
     it("get all links text", function()
     {
         browser.url('https://www.blazemeter.com/');
-        browser.maximizeWindow();
+        //browser.maximizeWindow();
         //blaze.litext;
         //blaze.usecasestext;
        console.log(blaze.specifiChileElement(3).getText());
@@ -18,7 +18,7 @@ describe("Element of Blazemeter", function(){
     it("Header is displayed", function()
     {
         browser.url('https://www.blazemeter.com/');
-        browser.maximizeWindow();
+       // browser.maximizeWindow();
         console.log(blaze.Header.isDisplayed());
 
 
@@ -27,7 +27,7 @@ describe("Element of Blazemeter", function(){
     it("Header is enabled", function()
     {
         browser.url('https://www.blazemeter.com/');
-        browser.maximizeWindow();
+        //browser.maximizeWindow();
         console.log(blaze.Header.isEnabled());
 
 
@@ -36,14 +36,16 @@ describe("Element of Blazemeter", function(){
     it("Header is displayed in view port", function()
     {
         browser.url('https://www.blazemeter.com/');
-        browser.maximizeWindow();
+       // browser.maximizeWindow();
         console.log(blaze.Header.isDisplayedInViewport());
 
 
     })
 
-    it('should save a screenshot of the browser view', function () {
-        const elem = $("//h2[@class='home_title']");
+    it('should save a screenshot of the browser view', function () 
+    {
+        browser.url('https://www.blazemeter.com/');
+        const elem = $("//h2[@class='home-features_title']");
         elem.saveScreenshot('./Screenshots/first.png');
     });
 

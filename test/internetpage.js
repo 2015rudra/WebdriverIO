@@ -7,7 +7,7 @@ describe("Internet Page checkbox operation", function()
     {
 
         browser.url("https://the-internet.herokuapp.com/");
-        browser.maximizeWindow();
+       // browser.maximizeWindow();
         expect(browser.getUrl()).equals("https://the-internet.herokuapp.com/");
 
     });
@@ -17,7 +17,7 @@ describe("Internet Page checkbox operation", function()
     {
 
         browser.url("https://the-internet.herokuapp.com/");
-        browser.maximizeWindow();
+       // browser.maximizeWindow();
         internet.clickonElement(6);
         internet.clickonCheckbox(1);
 

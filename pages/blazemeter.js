@@ -51,7 +51,7 @@ class Blazemeter
 
         get Header()
         {
-            return $("//h2[@class='home_title']");
+            return $("//h2[@class='home-features_title']");
         }
 }
 

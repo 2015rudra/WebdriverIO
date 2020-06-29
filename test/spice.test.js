@@ -7,7 +7,7 @@ describe("Perform Move to Element Operation", function()
     it("Move to SignUp options", function()
     {
         browser.url("https://www.spicejet.com/");
-        browser.maximizeWindow();
+        //browser.maximizeWindow();
         spiceJetPage.moveToElement(spiceJetPage.parent);
         //spiceJetPage.clickElement(spiceJetPage.parent);
         browser.pause(5000);
